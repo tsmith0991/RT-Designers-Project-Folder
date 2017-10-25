@@ -1,0 +1,172 @@
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="dmvlifestudios.com" resolutions="1x" timestamp="1508454227072">
+  <folder name="css">
+    <file name="site_global.css" crc="362194358"/>
+    <file name="master_a-master.css" crc="4027000726" ref="blog:audio-services:our-producers:photo-services:services:index:contact-us:event-services:video-services:artists"/>
+    <file name="blog.css" crc="3845530040" ref="blog"/>
+    <file name="audio-services.css" crc="330992098" ref="audio-services"/>
+    <file name="our-producers.css" crc="3845530040" ref="our-producers"/>
+    <file name="photo-services.css" crc="3845530040" ref="photo-services"/>
+    <file name="services.css" crc="410488473" ref="services"/>
+    <file name="index.css" crc="4163713666" ref="index"/>
+    <file name="contact-us.css" crc="3966738618" ref="contact-us"/>
+    <file name="event-services.css" crc="3845530040" ref="event-services"/>
+    <file name="video-services.css" crc="3989101620" ref="video-services"/>
+    <file name="artists.css" crc="3845530040" ref="artists"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="museutils.js" crc="17924269" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="whatinput.js" crc="86476730" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="museconfig.js" crc="278381782" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="jquery.musemenu.js" crc="4286030528" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3854337258" ref="index:services:contact-us:audio-services:video-services"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="require.js" crc="3861931657" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="webpro.js" crc="416662029" ref="contact-us"/>
+    <file name="form_check.php" crc="4110044762" ref="contact-us"/>
+    <file name="form_throttle.php" crc="22190333" ref="contact-us"/>
+    <file name="form_process.php" crc="257545537" ref="contact-us"/>
+    <file name="form-u773.php" crc="255845458" ref="contact-us"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u626.png" crc="206050950" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u626-a.png" crc="4067584103" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u649.png" crc="223276986" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u649-a.png" crc="480431283" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u669.png" crc="50005804" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u669-a.png" crc="235067422" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u691.png" crc="71143446" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u691-a.png" crc="430113175" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u713.png" crc="4267311175" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u713-a.png" crc="329522801" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u438.png" crc="395060143" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u438-a.png" crc="10695874" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="neil-godding-179009-u166-fr.png" crc="3849525752" ref="index"/>
+    <file name="dmv logo 3.png" crc="4140934861" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u246-6.png" crc="229484733" ref="index"/>
+    <file name="u255.png" crc="35570797" ref="index"/>
+    <file name="u255-r.png" crc="35570797" ref="index"/>
+    <file name="u266-4.png" crc="3940538319" ref="index"/>
+    <file name="cloud 9 edited-1.jpg" crc="3981710704" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cloud 9 edited-11.jpg" crc="61739086" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="cloud 9 edited-52.jpg" crc="3817652089" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u329-6.png" crc="4008403942" ref="index"/>
+    <file name="u333-6.png" crc="57772673" ref="index"/>
+    <file name="u336-6.png" crc="4098310841" ref="index"/>
+    <file name="steven-wang-353672-u341-fr.png" crc="246113580" ref="index"/>
+    <file name="u355-6.png" crc="12209428" ref="index"/>
+    <file name="william-stitt-162607.jpg" crc="154985940" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u410-4.png" crc="13838335" ref="index"/>
+    <file name="u735-4.png" crc="4098888864" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u741-4.png" crc="4071153869" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="dmv life logo.jpg" crc="157540758" seo="true" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services">
+      <caption webpage="artists" alt=""/>
+      <caption webpage="video-services" alt=""/>
+      <caption webpage="our-producers" alt=""/>
+      <caption webpage="contact-us" alt=""/>
+      <caption webpage="event-services" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="blog" alt=""/>
+      <caption webpage="services" alt=""/>
+      <caption webpage="photo-services" alt=""/>
+      <caption webpage="audio-services" alt=""/>
+    </file>
+    <file name="u732-4.png" crc="341330772" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u744-4.png" crc="4136422239" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u747-4.png" crc="68212168" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u753-4.png" crc="4265496891" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="u750-4.png" crc="1191100" ref="index:our-producers:artists:services:contact-us:blog:audio-services:video-services:photo-services:event-services"/>
+    <file name="matty-adame-200085.jpg" crc="266148942" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="u851-6.png" crc="175932252" ref="services"/>
+    <file name="u1328-6.png" crc="4003080851" ref="services"/>
+    <file name="photoservicesbutton-layer 1.png" crc="447267337" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="photoservicesbutton.jpg" crc="470144631" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="eventservicesbutton-layer 1.png" crc="3806108407" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="eventservicesbutton.jpg" crc="3909358433" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="audioservicesbutton-layer 1.png" crc="90663860" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="audioservicesbutton.jpg" crc="60533117" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="videoservicesbutton-layer 1.png" crc="4234540612" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="videoservicesbutton.jpg" crc="272139690" ref="services">
+      <caption webpage="services" alt=""/>
+    </file>
+    <file name="steven-wang-353672.jpg" crc="4029140493" ref="contact-us">
+      <caption webpage="contact-us" alt=""/>
+    </file>
+    <file name="u767-4.png" crc="4105824445" ref="contact-us"/>
+    <file name="u837-4.png" crc="285792891" ref="contact-us"/>
+    <file name="u789.png" crc="4255811559" ref="contact-us"/>
+    <file name="u789-ferr.png" crc="317091586" ref="contact-us"/>
+    <file name="u775.png" crc="238785672" ref="contact-us"/>
+    <file name="u775-ferr.png" crc="3872462126" ref="contact-us"/>
+    <file name="u827.png" crc="4061075308" ref="contact-us"/>
+    <file name="u827-ferr.png" crc="532341972" ref="contact-us"/>
+    <file name="u783.png" crc="4071876448" ref="contact-us"/>
+    <file name="u783-ferr.png" crc="138238965" ref="contact-us"/>
+    <file name="ben-koorengevel-223854.jpg" crc="126245410" ref="audio-services">
+      <caption webpage="audio-services" alt=""/>
+    </file>
+    <file name="u1364-6.png" crc="4228732649" ref="audio-services"/>
+    <file name="saso-tusar-181518.jpg" crc="155328280" ref="audio-services">
+      <caption webpage="audio-services" alt=""/>
+    </file>
+    <file name="u1386-4.png" crc="4135588650" ref="audio-services"/>
+    <file name="u1390-4.png" crc="205629467" ref="audio-services"/>
+    <file name="u1399-4.png" crc="4017033356" ref="audio-services"/>
+    <file name="u1405-4.png" crc="119357484" ref="audio-services"/>
+    <file name="u1402-4.png" crc="501472819" ref="audio-services"/>
+    <file name="u1408-4.png" crc="3864553905" ref="audio-services"/>
+    <file name="jakob-owens-231039.jpg" crc="3826678412" ref="video-services">
+      <caption webpage="video-services" alt=""/>
+    </file>
+    <file name="u1487-6.png" crc="115715632" ref="video-services"/>
+    <file name="jakob-owens-393303.jpg" crc="3818589770" ref="video-services">
+      <caption webpage="video-services" alt=""/>
+    </file>
+    <file name="u1527-4.png" crc="4262042095" ref="video-services"/>
+    <file name="u1530-4.png" crc="317047173" ref="video-services"/>
+    <file name="joao-silas-65013.jpg" crc="4060707970" ref="video-services">
+      <caption webpage="video-services" alt=""/>
+    </file>
+    <file name="u1504-4.png" crc="4015603318" ref="video-services"/>
+    <file name="u1507-4.png" crc="317047173" ref="video-services"/>
+    <file name="u1510-4.png" crc="335527115" ref="video-services"/>
+  </folder>
+  <file name="index.html" crc="4146354770" seo="true" mt="1507507339812" redirect="true"/>
+  <file name="our-producers.html" crc="368036344" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="artists.html" crc="34884820" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="services.html" crc="4033897151" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="contact-us.html" crc="4240532840" seo="true" mt="1507357878913" redirect="true"/>
+  <file name="blog.html" crc="4104149631" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="audio-services.html" crc="169182353" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="video-services.html" crc="4219817408" seo="true" mt="1506660558260" redirect="true"/>
+  <file name="photo-services.html" crc="500851537" seo="true" mt="1506645169223" redirect="true"/>
+  <file name="event-services.html" crc="4038517700" seo="true" mt="1506645169223" redirect="true"/>
+</manifest>

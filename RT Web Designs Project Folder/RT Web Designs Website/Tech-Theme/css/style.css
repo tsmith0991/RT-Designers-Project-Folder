@@ -1,0 +1,176 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+	font-family: 'Aquatico';
+	src: url('../fonts/Aquatico-Regular.otf');
+	src: url('../fonts/Aquatico-Regular.eot') format('embedded-opentype'),
+		url('../fonts/Aquatico-Regular.woff') format('woff'),
+		url('../fonts/Aquatico-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*End Fonts */
+
+
+
+/*Header*/
+
+
+
+
+/*End Header*/
+
+/*Sections*/
+
+section {
+    height: 850px;
+}
+
+
+#home {
+   	background-image: url('../images/background.png');
+   	background-position: center;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	margin-top: 0px;
+   	 background-attachment: fixed;
+}
+
+#about {
+	background-image: url('../images/iphone_1.png');
+   	background-position: center;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	margin-top: 0px;
+   	font-family: 'Open Sans', sans-serif;
+}
+
+#services {
+	background-image: url('../images/services.png');
+   	background-position: center;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	margin-top: 0px;
+   	font-family: 'Open Sans', sans-serif;
+   	color: #ffffff;
+   	text-align: center;
+   	font-size: 15px;
+}
+
+#about #info {
+	margin-top: 25%;
+	margin-left: 0%;
+	text-align: center;
+	font-size: 25px;
+}
+
+#services #graphics {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#services #marketing  {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#services #web {
+	margin-top: 60px;
+	text-align: center;
+}
+
+#contact {
+	background-image: url('../images/contact.png');
+   	background-position: center;
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	margin-top: 100px;
+   	font-family: 'Open Sans', sans-serif;
+   	text-align: center;
+   	font-size: 15px;	
+}
+
+#map {
+	margin-bottom: -500px;
+}
+
+/*Sections End*/
+
+.center-block {
+  position: absolute;
+  top: 600px;
+  left:500px;
+  transform: translate(-50%,-50%);
+  vertical-align: center;
+  }
+
+#contact #ex {
+	margin-top: 200px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Navigation*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ 
+nav {
+  margin: 25px;
+  position: fixed;
+  z-index: 1000;
+}
+ 
+nav ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+nav li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+ 
+nav li:last-child {
+  border-right: none;
+}
+ 
+nav li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 15px/1 'Open Sans', sans-serif;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+nav li a:hover {
+  color: #666;
+}
+ 
+nav li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+	font-family: 'Open Sans';
+}
+
+
+
+
+

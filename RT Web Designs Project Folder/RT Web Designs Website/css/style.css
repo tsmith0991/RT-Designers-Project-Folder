@@ -1,0 +1,635 @@
+/*Font Styles*/
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fascinate+Inline|Pacifico|Permanent+Marker|Shadows+Into+Light');
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+/*Start Global Styles*/
+.container{
+	margin: auto;
+}
+iframe{
+	background:transparent;
+	border:none;
+}
+button{
+	text-shadow: 2px 2px 4px #000000;
+}
+a{
+	text-decoration: none;
+	color: #f4f4f4;
+}
+a:hover{
+	color: #dcd0c0;
+}
+body{
+	font-family: 'Permanent Marker', cursive;
+	color: #f4f4f4;
+	font-size: 16px;
+}
+h1{
+	font-size: 500%;
+	text-shadow: 2px 2px 4px #000000;
+	animation-name: flipInX;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+	border-radius: 50%;
+}
+h2{
+	font-size: 350%;
+	text-shadow: 2px 2px 4px #000000;
+}
+h3{
+	font-size: 175%;
+	text-shadow: 2px 2px 4px #000000;
+}
+p{
+	font-family: 'Lato', sans-serif;
+	color: #f4f4f4;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+
+/*Start Navigation Styles*/
+
+#header-navigation{
+	position: fixed !important;
+	width: 100%;
+	height: auto;
+	z-index: 100;
+}
+.navbar{
+	text-transform: uppercase;
+}
+.navbar li{
+	display: inline;
+	padding-right: 25px;
+	list-style: none;
+}
+.navbar a{
+	text-decoration: none;
+	color: #f4f4f4;
+	text-shadow: 2px 2px 4px #000000;
+}
+.navbar li.current a, .navbar a:hover{
+	color: #dcd0c0;
+	text-shadow: 2px 2px 4px #000000;
+	border-bottom: 1px solid #dcd0c0;
+	padding-bottom: 3px;
+}
+
+/*Start Home Styles*/
+#home{
+	background: url(../imgs/home-image.jpg) fixed;
+	background-size: cover;
+	width: 100%;
+	padding-top: 300px;
+	margin-bottom: -10px;
+}
+#home button{
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #69c9c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#f4f4f4;
+	font-family: 'Permanent Marker', cursive;;
+	font-size:100%;
+	padding:16px 31px;
+	text-decoration:none;
+}
+#home button:hover {
+	background-color: #69c9c7;
+}
+#home button:active {
+	position:relative;
+	top:1px;
+}
+#home a{
+	font-size: 115%;
+	color: #f4f4f4;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px #000000;
+}
+#home h1{
+	animation-name: flipInX;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: .5s;
+    animation-iteration-count: 1;
+	border-radius: 50%;
+}
+
+/*Start Features Vector Styles */
+
+#features-vector svg{
+	width: 102.6%;
+	min-width: 102.6%;
+	position: bottom;
+	bottom: 0;
+	height: 100px;
+}
+#features-vector{
+	background: transparent;
+	width: 100%;
+}
+
+/*Start Feature Styles*/
+#features{
+	background: #c3e8c7;
+	width: 100%;
+	height: auto;
+}
+#features i:hover{
+	transform: scale(1.35,1.35);
+	transition: .4s transform;
+	color: #dcd0c0;
+}
+#features i{
+	font-size: 825% !important;
+	text-shadow: 2px 2px 4px #000000 !important;
+	color: #c76b84;
+}
+
+/*Start Who We Are Styles */
+#whoweare{
+	background: #69c9c7;
+}
+#whoweare img{
+	animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+	max-width: 150%;
+	max-height: 150%;
+	margin-left: -200px;
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+#whoweare p, #whoweare h2{
+	animation-name: slideInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+}
+#whoweare p{
+	font-size: 145%;
+	line-height: 45px;
+}
+
+/*Start Pricing Styles*/
+#pricing{
+	background: #b5ebd4;
+}
+
+#pricing img{
+	animation-name: slideInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: left;
+	max-width: 110%;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+#pricing p, #pricing h2{
+	animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+}
+#pricing p{
+	font-size: 145%;
+	line-height: 45px;
+}
+
+/* Start Social Media Styles */
+#socialmedia{
+	background: #69c9c7;
+}
+
+#socialmedia img{
+	animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+	max-width: 115%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#socialmedia h2, #socialmedia ul{
+	animation-name: slideInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+}
+
+#socialmedia i{
+	font-size: 500% !important;
+	line-height: 45px !important;
+	color: #c76b84 !important;
+	text-shadow: 2px 2px 4px #000000 !important;
+}
+#socialmedia li{
+	text-decoration: none;
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px; 
+}
+#socialmedia i:hover {
+	color: #dcd0c0 !important;
+}
+#socialmedia i:active {
+	position:relative !important;
+	top:1px !important;
+}
+/*Start Portfolio Styles */
+#portfolio{
+	background: #b5ebd4;
+	padding-bottom: 75px;
+}
+#portfolio ul{
+	animation-name: flipInX;
+    animation-duration: 1.25s;
+    animation-timing-function: linear;
+    animation-delay: .3s;
+    animation-iteration-count: 1;
+	background: #ffffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	box-shadow: 2px 2px 4px #000000;
+}
+#portfolio li{
+	display: inline;
+	padding-right:25px;
+	line-height: 50px;
+}
+#portfolio img{
+	max-width: 300px;
+	max-height: 250px;
+	box-shadow: 2px 2px 4px #000000;
+}
+#portfolio img:hover{
+	transform: scale(1.35,1.35);
+	transition: .4s transform;
+}
+/*Start Contact Styles*/
+#contact{
+	background: #69c9c7;
+}
+#contact p{
+	font-size: 145%;
+	line-height: 50px;
+}
+#contact form{
+	font-size: 150%;
+	padding: 5px;
+	line-height: 50px;
+	text-shadow: 2px 2px 4px #000000;
+}
+#contact input, #contact textarea{
+	width: 500px;
+	background: #c3e8c7;
+	font-size: 100%;
+	color: #f4f4f4;
+}
+#contact input:hover, #contact textarea:hover, #contact input:active, #contact textarea:active{
+	background: #dcd0c0;
+}
+#contact input{
+	height: 50px;
+	text-align: center;
+}
+#contact textarea{
+	height: 250px;
+}
+#contact button{
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #69c9c7;
+	display:inline-block;
+	cursor:pointer;
+	color:#f4f4f4;
+	font-family: 'Permanent Marker', cursive;;
+	font-size:125%;
+	padding:16px 31px;
+	text-shadow: 2px 2px 4px #000000;
+	text-decoration:none;
+}
+#contact button:hover {
+	color: #dcd0c0;
+}
+/* Start Footer Styles */
+#footersection{
+	background: #c3e8c7 fixed;
+}
+#footersection li{
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#footersection i{
+	font-size: 300% !important;
+	line-height: 45px !important;
+	color: #c76b84 !important;
+	text-shadow: 2px 2px 4px #000000 !important;
+}
+#footersection i:hover {
+	color: #dcd0c0 !important;
+}
+#footersection i:active {
+	position:relative !important;
+	top:1px !important;
+}
+#footersection h3{
+	font-size: 225%;
+}
+/*--------Start Service Page Styles --------*/
+
+/* Start Determine Needs Styles */
+
+#needs{
+	background: #69c9c7;
+}
+
+#needs img{
+	animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .6s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+	max-width: 105%;
+	max-height: 125%;
+	padding-top: 130px;
+}
+#needs p, #needs h2{
+	animation-name: slideInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .6s;
+    animation-iteration-count: 1;
+    animation-direction: right;
+}
+#needs p{
+	font-size: 145%;
+	line-height: 45px;
+}
+
+/* Start Choose Package Styles */
+
+#choose{
+	background: #b5ebd4;
+}
+
+#choose img{
+	animation-name: slideInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .6s;
+    animation-iteration-count:1;
+    animation-direction: right;
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+#choose p, #choose h2{
+	animation-name: slideInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-delay: .6s;
+    animation-iteration-count:1;
+    animation-direction: right;
+}
+
+#choose p{
+	font-size: 145%;
+	line-height: 45px;
+}
+/*Start Entrepreneur Package 1 Styles */
+#package1{
+	background: #69c9c7;
+}
+
+#package1 img{
+	max-width: 110%;
+	max-height: 140%;
+	margin-top: 75px;
+}
+#package1 p{
+	font-size: 145%;
+	line-height: 45px;
+}
+/*Start Professional Package 2 Styles */
+#package2{
+	background: #b5ebd4;
+}
+
+#package2 img{
+	max-width: 105%;
+	max-height: 130%;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	margin-right: -110px;
+}
+#package2 p{
+	font-size: 145%;
+	line-height: 45px;
+}
+/*Start Business Package 3 Styles */
+#package3{
+	background: #69c9c7;
+}
+
+#package3 img{
+	max-width: 100%;
+	max-height: 80%;
+	margin-top: 75px;
+	padding-right: 100px;
+}
+#package3 p{
+	font-size: 145%;
+	line-height: 45px;
+}
+/* Start Enterprise Package 4 Styles */
+#package4{
+	background: #b5ebd4;
+}
+
+#package4 img{
+	max-width: 110%;
+	max-height: 130%;
+	margin-top: 200px;
+	margin-right: 5px;
+}
+#package4 p{
+	font-size: 145%;
+	line-height: 45px;
+}
+#package4 a:hover{
+	color: #dcd0c0;
+	text-shadow: 2px 2px 4px #000000;
+	border-bottom: 1px solid #dcd0c0;
+	padding-bottom: 3px;
+}
+/* Start About Page Styles*/
+
+/*Start Values Styles*/
+
+#values{
+	background: #b5ebd4;
+}
+
+#values img{
+	max-width: 100%;
+	padding-top: 130px;
+}
+#values p{
+	font-size: 145%;
+	line-height: 45px;
+}
+
+/* Start Customer Guarantee Styles */
+
+/*Start Values Styles*/
+
+#customer{
+	background: #69c9c7;
+}
+
+#customer img{
+	max-width: 100%;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+#customer p{
+	font-size: 145%;
+	line-height: 45px;
+}
+
+/* Start Features Page */
+
+/* Start Features Banner */
+#features-banner{
+	background: #7888AB;
+}
+#features-banner h2{
+	font-size: 425%;
+}
+/* Start Web Management Section */
+#webmanagement{
+	background: #7888AB;
+}
+#webmanagement i{
+	color: #69A4B6;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 25px;
+	padding-bottom: 45px;
+}
+#webmanagement p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+/* Start Web Design Section */
+#webdesign{
+	background: #69A4B6;
+}
+#webdesign i{
+	color: #7888AB;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 75px;
+	padding-bottom: 45px;
+}
+#webdesign p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+/*--Start Graphic Design Section --*/
+#graphicdesign{
+	background: #7888AB;
+}
+#graphicdesign i{
+	color: #69A4B6;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 150px;
+	padding-bottom: 45px;
+}
+#graphicdesign p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+/*--Start E-Commerce Section --*/
+#ecommerce{
+	background: #69A4B6;
+}
+#ecommerce i{
+	color: #7888AB;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+#ecommerce p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+/* Start Search Engine Optimization Section */
+#seo{
+	background: #7888AB;
+}
+#seo i{
+	color: #69A4B6;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 100px;
+	padding-bottom: 45px;
+}
+#seo p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+/* Start Web Hosting Section */
+#webhosting{
+	background: #69A4B6;
+}
+#webhosting i{
+	color: #7888AB;
+	font-size: 2000%;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+#webhosting p{
+	font-size: 145%;
+	line-height: 45px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+

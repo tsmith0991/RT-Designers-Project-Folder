@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RT Web Designs | Contact</title>
+	<script src="js/wow.js"></script>
+    <script>new WOW().init();</script>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass|Permanent+Marker">
+</head>
+<body>
+	<!-- Start Navigation Bar -->
+	<section id="header-navigation">
+		<div class="container">
+			<div class="row end-xs end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<a href="#home"><img id="logo" src="imgs/RTWebDesign3.png" style="height: 150px; width: 150px; margin-top: 15px;"></a>
+				</div>
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<!--Spacer-->
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+					<nav class="navbar">
+						<ul>
+							<li id="home1"><a href="index.html">Home</a></li>
+							<li id="services1"><a href="services.html">Services</a></li>
+							<li id="about1"><a href="about.html">About</a></li>
+  	  						<li id="contact1"><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Start Home Section -->
+	<section id="home">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flipInX">
+					<h1>Talk to a Web Consultant Today!</h1>
+					<a href="#contact"><button type="contact">Get In Touch</button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="home">
+		<div class="row center-xs center-sm center-md center-lg" id="features-vector">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+          				<polygon class="svg--sm" fill="#69c9c7" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100"/>
+         				<polygon class="svg--lg" fill="#69c9c7" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+        			</svg>
+				</div>
+			</div>
+	</section>
+	<!--Start Contact Section -->
+	<section id="contact">
+		<div class="row center-xs center-sm center-md center-lg">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h2>Reach Out To Us!</h2>
+				<p>Fill out the form below, and one of our professional web <br>consultants will contact you within the next 24 hours!</p>
+				<form target="hiddenFrame" id="data" enctype="multipart/form-data" action="mail_handler.php" method="POST">
+					<label for="name">Name</label><br>
+					<input id="name" type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
+					<label for="company">Company Name</label><br>
+					<input id="company" type="company" name="company" class="inp" placeholder="Enter Your Company Name" required><br>
+					<label for="email">Email</label><br>
+					<input id="email" type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
+					<label for="phone">Phone</label><br>
+					<input id="phone" type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
+					<label for="message">Message</label><br>
+					<textarea id="msg" name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+					<button id="submit" type="submit">Submit!</button>
+					<p><span id="status"></span></p>
+				</form>
+				<iframe name="hiddenFrame" class="hide"></iframe>
+			</div>
+			</div>
+		</div>
+	</section>
+	<!--Start Footer Section -->
+	<footer id="footersection">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h3>&copy; 2017 RT Web Designs</h3>
+					<ul>
+						<li><a href="http://facebook.com/rtwebdesigners"><i class="fa fa-facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://linkedin.com/company/11328305"><i class="fa fa-linkedin-square"></i></a></li>
+						<li><a href="#"><i class="fa fa-github"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-yelp"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</body>
+</html>
